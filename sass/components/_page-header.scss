@@ -3,6 +3,7 @@
 .main-nav {
   display: flex;
   align-items: center;
+  justify-content: center;
   border-bottom: 1px solid #ececec;
 }
 
@@ -73,6 +74,8 @@
 
 .auth-nav {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
 
   .item + .item {
@@ -91,8 +94,8 @@
   }
 }
 
-.envelope-icon,
-.phone-icon {
+.icon-envelope,
+.icon-phone {
   margin-right: 10px;
   fill: currentColor;
 }
