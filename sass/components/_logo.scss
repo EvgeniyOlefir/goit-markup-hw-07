@@ -13,6 +13,10 @@
 
   transition: color $timing-function;
 
+  &inverse {
+    color: $white;
+  }
+
   &:hover,
   &:focus {
     color: $accent-color;
@@ -29,12 +33,12 @@
   letter-spacing: 0.03em;
 }
 
-.logo.inverse {
-  color: $white;
+// .logo.inverse {
+//   color: $white;
 
-  &:hover,
-  &:focus {
-    color: $accent-color;
-    transition: color $timing-function;
-  }
+//   &:hover,
+//   &:focus {
+//     color: $accent-color;
+//     transition: color $timing-function;
+//   }
 }
