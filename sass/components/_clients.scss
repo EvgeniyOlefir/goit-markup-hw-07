@@ -1,0 +1,25 @@
+/* Clients */
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+
+  transition: fill $timing-function;
+
+  &:hover,
+  :focus {
+    border-color: $accent-color;
+    fill: $accent-color;
+  }
+}
