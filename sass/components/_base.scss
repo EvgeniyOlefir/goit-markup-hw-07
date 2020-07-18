@@ -85,3 +85,12 @@ p {
   letter-spacing: 0.03em;
   color: $secondary-text-color;
 }
+
+// Невидимый заголовок футера
+
+.footer-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: $primary-text-color;
+}
